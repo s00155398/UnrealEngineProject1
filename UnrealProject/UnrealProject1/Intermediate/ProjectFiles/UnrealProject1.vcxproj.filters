@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealProject1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{48B2B4BA-3FFB-418F-AFBA-C03F1E638C04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealProject1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{35F86CEC-3825-483B-8A86-640F05DCB173}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealProject1">
+      <UniqueIdentifier>{FF931669-B5EF-403E-87E8-BAB643670C32}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject1\UnrealProject1.Build.cs">
+      <Filter>Source\UnrealProject1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealProject1\UnrealProject1.cpp">
+      <Filter>Source\UnrealProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject1\UnrealProject1.h">
+      <Filter>Source\UnrealProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject1\UnrealProject1GameModeBase.cpp">
+      <Filter>Source\UnrealProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject1\UnrealProject1GameModeBase.h">
+      <Filter>Source\UnrealProject1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnrealProject1\FloatingActr.h">
+      <Filter>Source\UnrealProject1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnrealProject1\FloatingActr.cpp">
+      <Filter>Source\UnrealProject1</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
